@@ -1,0 +1,21 @@
+[custom.all.idris2-vm0-lib]
+type = "local"
+path = "."
+ipkg = "idris2-vm0-lib.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.idris2-vm0-lib-test]
+type = "local"
+path = "test"
+ipkg = "test-lib.ipkg"
+
+[custom.all.idris2-vm0]
+type = "local"
+path = "."
+ipkg = "idris2-vm0.ipkg"
+test = "test/test.ipkg"
+
+[custom.all.idris2-vm0-test]
+type = "local"
+path = "test"
+ipkg = "test.ipkg"

@@ -1,0 +1,52 @@
+package idris2-vm0
+version = 0.1.0
+authors = "HIROKI, Hattori"
+maintainers = "HIROKI,Hattori <seagull.kamome@gmail.com>"
+license = MIT
+-- brief =
+-- readme =
+-- homepage =
+-- sourceloc =
+-- bugtracker =
+
+-- the Idris2 version required (e.g. langversion >= 0.5.1)
+langversion >= 0.5.1
+
+-- packages to add to search path
+depends = idris2
+        , idris2-vm0-lib
+        , base >= 0.6.0
+        , contrib >= 0.6.0
+        , elab-util >= 0.6.0
+        , sop >= 0.6.0
+
+-- modules to install
+-- modules =
+
+-- main file (i.e. file to load at REPL)
+-- main =
+
+-- name of executable
+executable = idris2-vm0
+-- opts =
+sourcedir = "idris2-vm0/src"
+-- builddir =
+-- outputdir =
+
+-- script to run before building
+-- prebuild =
+
+-- script to run after building
+-- postbuild =
+
+-- script to run after building, before installing
+-- preinstall =
+
+-- script to run after installing
+-- postinstall =
+
+-- script to run before cleaning
+-- preclean =
+
+-- script to run after cleaning
+-- postclean =
